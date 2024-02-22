@@ -1,4 +1,7 @@
 import os
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 import environ
 from django.urls import reverse_lazy
